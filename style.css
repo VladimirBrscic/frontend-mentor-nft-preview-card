@@ -11,6 +11,7 @@ body {
   display: grid;
   align-items: center;
   height: 100vh;
+  padding: 1rem;
 }
 
 a {
@@ -19,7 +20,7 @@ a {
 }
 
 .container {
-  padding: 2.5rem;
+  padding: 2rem;
   border-radius: 10px;
   background-color: hsl(216, 50%, 16%);
   max-width: 23.5rem;
@@ -131,10 +132,4 @@ img {
 .attribution {
   font-size: 0.7rem;
   color: hsl(215, 51%, 70%);
-}
-
-@media screen and (max-width: 500px) {
-  .container {
-    height: 100vh;
-  }
 }
